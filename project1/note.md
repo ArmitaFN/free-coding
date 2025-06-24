@@ -1,7 +1,10 @@
-Goal: A script that checks if a password is strong enough and gives suggestion
-Uses: cybersecurity, coding, Github flow
-Tips: logic, conditionals, funstions
-Brain storming:
+# Goal:
+A script that checks if a password is strong enough and gives suggestion
+# Uses: 
+cybersecurity, coding, Github flow
+# Tips:
+logic, conditionals, funstions
+# Brain storming:
 well, first i need to get an input for sure
 then i should see if it's more than 6 letters
 then see if there is both letter and number
