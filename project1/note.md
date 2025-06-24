@@ -8,7 +8,7 @@ logic, conditionals, funstions
 I:  
 first i need to get an input for sure  
 II:  
-then i should see if it's more than 6 letters
+then i should see if it's more than 6 letters  
 III:  
 then see if there is both letter and number  
 if it only contains one of them and 6 place holder, then we say its low security  
