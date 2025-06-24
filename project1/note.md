@@ -6,19 +6,19 @@ cybersecurity, coding, Github flow
 logic, conditionals, funstions
 # Brain storming:
 I:  
-first i need to get an input for sure  
+First I need to get an input
 II:  
-then i should see if it's more than 6 letters  
+Then I should see if it's more than 6 letters  
 III:  
-then see if there is both letter and number  
-if it only contains one of them and 6 place holder, then we say its low security  
-if it contains only one of them but have 7 to 9 placeholder, then we say its mid  
-if it contains only one of them but more than 9 place holder, then its strong  
-if it contains both letter and number and 6 place holder, we still say its mid  
-if it contains both letter and number with 7 to 9 placeholder, we say its strong  
+Then see if there is both letter and number  
+if it only contains one of them and length of 6, then we say its low security  
+if it contains only one of them but have 7 to 9, then we say its mid  
+if it contains only one of them but more than 9, then its strong  
+if it contains both letter and number and 6, we still say its mid  
+if it contains both letter and number with 7 to 9, we say its strong  
 if it contains both letter and number more than 9, its very strong  
 IV:  
-if it was low security, we suggest first half part of the letters be repeated at the end of it  
+If it was low security, we suggest first half part of the letters be repeated at the end of it  
 V:  
-there should also be a limit, we set it to 15 letters  
+There should also be a limit, we set it to 15 letters  
 
