@@ -6,7 +6,7 @@ cybersecurity, coding, Github flow
 logic, conditionals, funstions
 # Brain storming:
 I:  
-First I need to get an input
+First I need to get an input  
 II:  
 Then I should see if it's more than 6 letters  
 III:  
