@@ -7,7 +7,7 @@ extra = ''.join(random.choice(user_pass) for _ in range(length))
 if (re.search(r'[A-Z]', user_pass) and
     re.search(r'[a-z]', user_pass) and
     re.search(r'[0-9]', user_pass) and
-    re.search(r'[!@#$%&]')):
+    re.search(r'[!@#$%&]', user_pass)):
       if num < 4:
         print("Too short!")
       elif 4 < num < 6: 
