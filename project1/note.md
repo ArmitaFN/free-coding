@@ -16,9 +16,8 @@ check the number of characters
 min = 4, MAX = 12  
 n is the characters number  
 4 <= n < 6 is weak, 6 <= n < 8 is medium, 8 <= n is strong  
-IV:  
-If it was accepted but low security, we suggest first half part of the letters be repeated at the end of it  
 V:  
-There should also be a limit, we set it to 15 letters  
+If it was accepted but low security, we suggest first half part of the letters be repeated at the end of it  
+
 
     
