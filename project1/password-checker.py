@@ -7,7 +7,7 @@ if (re.search(r'[A-Z]', user_pass) and
     re.search(r'[!@#$%&]')):
       if num < 4:
         print("Too short!")
-      elif 4 < num < 6: #now i should suggest something for renforcement 
+      elif 4 < num < 6: #now i should suggest something for renforcement, we can suggest randomly from the main pass
         print("Weak")
       elif 6 < num < 8:
         print("Medium")
