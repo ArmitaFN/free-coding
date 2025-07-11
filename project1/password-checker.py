@@ -10,7 +10,7 @@ digit = bool(re.search(r'[0-9]', user_pass))
 symbol = bool(re.search(r'[!@#$%&]', user_pass))
 extra1 = ''.join(random.choice(user_pass) for _ in range(length))
 extra2 = ''.join(random.choice(user_pass) for _ in range(length))
-if all(upper, lower, digit, symbol):
+if all([upper, lower, digit, symbol]):
     if num < 4:
         print("Too short!")
     elif num < 6: 
