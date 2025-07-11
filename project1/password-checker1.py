@@ -1,3 +1,4 @@
+# Versoin 1, check "password-checker2" for version 2
 import re
 import random
 import string
