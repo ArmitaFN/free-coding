@@ -26,7 +26,6 @@ help_upper = string.ascii_uppercase
 help_lower = string.ascii_lowercase
 help_digit = string.digits
 help_symbol = "!@#$%&"
-helpers = [help_upper, help_lower, help_digit, help_symbol]
 
 # Pick characters for suggestions
 def pick_char(chars, helps):
@@ -43,10 +42,11 @@ def generate_suggestion():
     suggestion_chars.append(pick_char(user_lowers, help_lower))
     suggestion_chars.append(pick_char(user_digits, help_digit))
     suggestion_chars.append(pick_char(user_symbols, help_symbol))
+    
+    # Fill the rest of the length randomly from user's password
+    while len(suggestion_chars) < length:
+        suggestion_chars.append(random.choice(user_pass))
 
-# Fill the rest of the length randomly from user's password
-while len(suggestion_chars) < length:
-    suggestion_chars.append(random.choice(user_pass))
 
 extra1 = generate_suggestion()
 extra2 = generate_suggestion()
