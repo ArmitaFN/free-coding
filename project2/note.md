@@ -14,11 +14,11 @@ figure what sort of file it is:
 mp3 = musics, 
 mp4 = videos,  
 pdf = files,  
-png/jpg = images
+png/jpg = images  
 IV:  
 move or copy the file  
 V:  
-handle the duplicates
+handle the duplicates  
 VI:  
 also have options to organize by date, name, recursively, size  
 VII:  
