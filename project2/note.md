@@ -4,5 +4,4 @@ A script that organizes files in a folder by moving them into catagorized subfol
 File management, automation, working with the OS  
 # Tips:  
 os and shutil modules, dictionary, loops, conditionals, functions  
-  
 # Brain Storming:  
