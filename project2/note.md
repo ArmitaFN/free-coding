@@ -5,3 +5,11 @@ File management, automation, working with the OS
 # Tips:  
 os and shutil modules, dictionary, loops, conditionals, functions  
 # Brain Storming:  
+I:  
+at first, we can choose a folder to organized  
+II:  
+pay attention what sort of file is it,  
+if its mp3 then we sort it as musics,  
+mp4 = videos,  
+pdf = files,  
+png/jpg = images
