@@ -8,16 +8,18 @@ os and shutil modules, dictionary, loops, conditionals, functions
 I:  
 at first, we can choose a folder to organized  
 II:  
+extension mapping   
+III:  
 figure what sort of file it is:  
 mp3 = musics, 
 mp4 = videos,  
 pdf = files,  
 png/jpg = images
-III:  
-move or copy the file  
 IV:  
-handle the duplicates
+move or copy the file  
 V:  
-also have options to organize by date, name, recursively, size  
+handle the duplicates
 VI:  
+also have options to organize by date, name, recursively, size  
+VII:  
 can undo the action and dry run mode
